@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Case Study &#8212; Seachange Resources</title>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/website.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav id="nav-bar" class="white-bg nav-padding nav-shadow">
+        <div class="logo">
+            <a href="../">
+                <h1 class="logo-name">GRACE LEE</h1>
+            </a>
+        </div>
+        <div class="toggle">
+            <div class="hamburger" id="hamburger-1" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div id="backdrop" onclick="toggleMenu()"></div>
+            <div class="menu">
+                <ul>
+                    <!-- <li><a href="./">Home</a></li> -->
+                    <li><a href="../index.html#work">Work</a>
+                    </li>
+                    <li><a href="../index.html#about">About</a>
+                    </li>
+                    <li><a onclick="closeMenu()" href="#contact-me">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header-project nav-spacing">
+        <div class="width">
+            <h1 class="header-title">SEACHANGE RESOURCES</h1>
+            <p class="mid-spacing">
+                Upgraded online video lectures for Leadership@theHelm, a hybrid program from SeaChange Resources helping
+                users improve their leadership skills.
+            </p>
+        </div>
+        <div class="accent-bg">
+            <div class="width small-spacing">
+                <p>
+                    <strong>All rights for the materials remain with Unity Workplace Learning and Seachange
+                        Resources.
+                        <br>
+                        Because this program is used internally, all visuals and content will be kept confidential.
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="header-seachange header-project-bg header-fixed"></div>
+
+    <!-- role -->
+    <div class="flex flex-center width small-spacing">
+        <div>
+            <h4>Role</h4>
+            <p>Instructional Designer, Visual Designer</p>
+        </div>
+        <hr>
+        <div class="team">
+            <h4>Team</h4>
+            <p>
+                Cross functional partnership between our team at Unity Workplace Learning and SMEs at Seachange
+                Resources
+            </p>
+        </div>
+        <hr>
+        <div>
+            <h4>Tools</h4>
+            <p>Canvas LMS, Adobe Creative Cloud</p>
+        </div>
+    </div>
+
+    <!-- question -->
+    <div class="dark-bg">
+        <h3 class="white-text small-spacing width">
+            How do you teach online leadership skills to an older audience if they are not tech savvy?
+        </h3>
+    </div>
+
+    <!-- user research -->
+    <div class="spacing width">
+        <h3 class="small-spacing-bottom">User Research</h3>
+        <p><strong>What do we know about the users?</strong></p>
+        <p class="text-padding-top">
+            Conversations with our client in ideation sessions show that their target audience includes older adults,
+            mostly scientists and professors. Most users not only struggle with basic technological literacy but are
+            unfamiliar with modern-day corporate language. In the course redesign, they were especially interested in
+            making the course easier to use.
+        </p>
+        <p class="text-padding-top">
+            These are some pain points our team identified based on the user survey and interviews from previous users:
+        </p>
+        <ul class="text-ul">
+            <li><strong>It’s time consuming.</strong> Previous learners report spending more time than anticipated
+                watching lectures and working on assignments.</li>
+            <li><strong>It’s convoluted.</strong> While users have positive feedback regarding the usefulness of the
+                material, some have reported difficulty paying attention to the course because of how dense it is.</li>
+            <li><strong>The product design is dated.</strong> This product relies on traditional classroom-based
+                learning styles. These visuals of the course lack a design system or typography hierarchy, meaning it
+                falls behind their competitors’ more streamlined online courses.</li>
+        </ul>
+    </div>
+
+    <!-- competitive analysis -->
+    <div class="width">
+        <h3 class="small-spacing-bottom">Competitive Analysis</h3>
+        <p>
+            Our client wanted to continue using a traditional, classroom-based learning style in their product. This
+            would include hour-long lectures, extensive assignments, and dense learning materials. They appeared
+            reluctant to make too many changes from what they were familiar with.
+        </p>
+        <p class="text-padding-top small-spacing-bottom">
+            However, we believed there was a better, easier way to create this product. To build our case, I started by
+            researching successful EdTech companies and identifying the things they did that made them popular with
+            their intended audience.
+        </p>
+    </div>
+    <div class="grey-bg">
+        <img class="width img-block mid-spacing" src="../img/projects/seachange/seachange-comparative-analysis.png"
+            alt="image of logos: Udemy, Khan Academy, Coursera, EdX, and LinkedIn Learning">
+    </div>
+    <div class="small-spacing-top width">
+        <p>Here are some of the qualities we identified for the <strong>Minimum Viable Product</strong>:</p>
+        <ul class="text-ul">
+            <li>Short lectures</li>
+            <li>Activity tracking</li>
+            <li>Check-in quizzes</li>
+        </ul>
+    </div>
+
+    <!-- design strategy -->
+    <div class="spacing width">
+        <h3 class="small-spacing-bottom">Design Strategy</h3>
+        <p>Here are the changes I suggested to the clients based on the comparative analysis:</p>
+        <ul class="text-ul">
+            <li><strong>Break it down.</strong> Instead of watching an hour-long lecture in a single sitting, we break
+                it into manageable chunks that are 5 minutes or less. This would be especially helpful for working
+                professionals with an unpredictable schedule, as they do not need to commit to a large time block.
+            </li>
+            <li><strong>Track their progress.</strong> Users can check off items they have completed, making it possible
+                for them to be consistent about completing their work when they can see the progress they made.
+            </li>
+            <li><strong>Reduce the cognitive load.</strong> Remove the intensive assignments so that users are less
+                distracted by busywork. Instead, use brief check-ins to make sure the users are paying attention to the
+                learning material.
+            </li>
+            <!-- <li><strong>Separate the assignments from the lecture.</strong> The current course integrates assignments to
+                the lecture, meaning the video stops periodically and requires users to complete an activity in order to
+                proceed. We should separate them into different sections.
+            </li> -->
+        </ul>
+        <p class="text-padding-top">
+            We created a micro-module showcasing what it could look like to implement these changes. After we presented
+            this to them, our client became excited by the new direction as well as the possibility of bringing new
+            changes to this product.
+        </p>
+    </div>
+
+    <!-- styleguide update -->
+    <div class="width">
+        <h3 class="small-spacing-bottom">Styleguide Update</h3>
+        <p>
+            The old styleguide was heavy on using dark green colors with a dark background while lacking a clear text
+            hierarchy. There were a lot of different fonts and long clusters of text that made the material difficult to
+            read, especially when most of them were in columns of different lengths.
+        </p>
+        <p class="text-padding-top small-spacing-bottom">
+            While the visuals had a lot of room for improvement,
+            <strong>my goal with the styleguide was to not only make the UI look better but to make it easier for people
+                to use this product.</strong>
+        </p>
+        <!-- <p class="text-padding-top">
+            Here are some major design changes I used to make it more user friendly:
+        </p>
+        <ul class="text-ul small-spacing-bottom">
+            <li>I cut down the text-heavy pages and PowerPoint, replacing them with a clean and minimalist style.</li>
+            <li>I replaced the columns with horizontal text, which makes it more readable.</li>
+            <li>I included emojis and other visual cues to indicate users the type of activity they will need to
+                complete.</li>
+            <li>I removed unnecessary visuals and added an easy-to-find transcript, which greatly improved
+                accessibility.</li>
+            <li>I created a clear text hierarchy so that users know what information to focus on.</li>
+        </ul> -->
+    </div>
+    <div class="accent-bg grid">
+        <img class="grid-img img-block mid-spacing" src="../img/projects/seachange/styleguide-before.png"
+            alt="image of styleguide before update">
+        <img class="grid-img img-block mid-spacing" src="../img/projects/seachange/styleguide-after.png"
+            alt="image of styleguide after update">
+    </div>
+
+    <!-- lecture update -->
+    <div class="spacing-top width">
+        <h3 class="small-spacing-bottom">Lecture Update</h3>
+        <p>
+            The old videos were heavily cluttered, with large blocks of text, pictures, and speaker icons crowding the
+            screen. At random intervals, the lecture would suddenly stop and notify the user that they needed to
+            complete a time-consuming assignment. However,
+            there was no way to confirm that the assignment was submitted before the user could proceed with the
+            lecture. There was also no way to bookmark your progress on the lecture, so if you refreshed the page or
+            logged out, you had to start from the beginning.
+        </p>
+        <p class="text-padding-top small-spacing-bottom">
+            Using <strong>Adobe Premiere Pro</strong>,
+            I took the existing lectures and cut them into shorter lectures based on topics. I also edited the videos by
+            shortening the text and animating it to appear line by line as the speaker mentions the topic.
+        </p>
+        <!-- <p class="text-padding-top">I relied on the Competitive Analysis to create a new structure of each video:</p>
+        <ul class="text-ul small-spacing-bottom">
+            <li>I included a video thumbnail to give all of them a consistent appearance for the users.</li>
+            <li>I started with a full shot of the speaker, who introduced the topic at hand.</li>
+            <li>I created animations and included them with other visuals in place of texts, when appropriate.</li>
+            <li>I shortened the pauses in the audio and removed background noises from some guest speakers on
+                <strong>Adobe Audition</strong>.
+            </li>
+            <li>I separated the assignment and marked it required for submission to complete the module it was in.</li>
+        </ul> -->
+    </div>
+    <div class="accent-bg">
+        <img class="width img-block mid-spacing" src="../img/projects/seachange/lecture-before.png"
+            alt="image of video lecture before update">
+        <img class="width img-block mid-spacing" src="../img/projects/seachange/lecture-after.png"
+            alt="image of video lecture after update">
+    </div>
+
+    <!-- information architecture update -->
+    <div class="spacing-top width">
+        <h3 class="small-spacing-bottom">Information Architecture Update</h3>
+        <p>
+            I made changes to the information architecture, reorganizing items in the product to make it more intuitive
+            and easy to navigate.
+        </p>
+        <p class="text-padding-top">
+            One example was how I created the <strong>Course Resources</strong> tab.
+            Previously, there were many different paths to finding the Course Resources, all deeply embedded in
+            different modules. It was confusing and inconsistent, taking around <strong>3 or 4 clicks</strong>
+            from the home page to reach the final destination from multiple starting points.
+        </p>
+        <p class="text-padding-top small-spacing-bottom">
+            I changed this by putting all the resources into a single page, which users can access with just
+            <strong>one click</strong> by placing the Course Resources as an option on the left-hand navigation. I also
+            ordered the resources by phases and modules, making it easier to find visually. This was especially well
+            received by the client, as they wanted users to maintain access to the resources after they left the
+            program, so consolidating it simplified that process.
+        </p>
+    </div>
+    <div class="accent-bg">
+        <div class="width">
+            <img class="width img-block mid-spacing" src="../img/projects/seachange/navigation-before.png"
+                alt="image of old information architecture">
+        </div>
+        <div class="width">
+            <img class="width img-block mid-spacing" src="../img/projects/seachange/navigation-after.png"
+                alt="image of updated information architecture">
+        </div>
+    </div>
+
+    <!-- results -->
+    <div class="spacing width">
+        <h3 class="small-spacing-bottom">Results</h3>
+        <p><strong>100% of feedback</strong> regarding the changes has been positive:</p>
+        <ul class="text-ul">
+            <li><strong>Users</strong> have reported that this updated design is easy to use and navigate. Through
+                feedback surveys, the client has reported an increase in positive responses.
+            </li>
+            <li><strong>Stakeholders</strong> were pleased with the results, and have praised the updated product for
+                its minimalist design and simplicity.
+            </li>
+            <li><strong>Instructors</strong> have noted that the updates have helped their sessions run more smoothly
+                and expressed renewed excitement about working with a more user friendly product.
+            </li>
+        </ul>
+        <p class="text-padding-top">
+            We are happy to see that our clients are happy. Of course, there is always room for improvement.
+            There are already talks on what changes can be made for the next iteration, specifically about
+            reshooting some of the lectures and updating the language used in the learning material.
+        </p>
+
+        <div class="flex row-reverse">
+            <div class="flex-text left-space">
+                <p class="text-padding-top">
+                    I have learned a lot from this experience. I had to push myself to learn more about Adobe Creative
+                    Cloud, as well as create animations to brighten up the learning experience. It was also the first
+                    time I took charge of a project and presented it to the stakeholders while projecting confidence
+                    in my work. It tested my communication skills, as well as my ability to explain design decisions
+                    to the clients in a way they could understand and get behind.
+                </p>
+                <p class="text-padding-top">
+                    Overall, this was a great partnership. I have also included a picture of a thank you card that they
+                    sent to our team!
+                </p>
+            </div>
+            <img class="small-spacing-top seachange-card" src="../img/projects/seachange/card.jpg"
+                alt="picture of a thank you card from SeaChange Resources">
+        </div>
+
+    </div>
+    <div class="spacing-bottom"></div>
+
+    <!-- FOOTER -->
+    <div class="dark-bg spacing white-text center-text">
+        <div class="spacing" id="contact-me">
+            <h1>CONTACT</h1>
+            <div class="mid-spacing footer">
+                <p>Interested in working with me?</p>
+                <div class="btn">
+                    <a href="mailto:gracelee.ux@gmail.com" target="_blank" class="btn-white">Shoot me a line</a>.
+                </div>
+            </div>
+
+            <ul class="contact">
+                <li>
+                    <a href="mailto:gracelee.ux@gmail.com" target="_blank">
+                        <img src="../img/contact/email.svg" width="50px" alt="email icon">
+                    </a>
+                </li>
+                <!-- <li>
+                <a href="https://dribbble.com/graceavocado" target="_blank">
+                  <img src="images/contact/dribbble.svg" width="50px" alt="dribbble icon">
+                </a>
+              </li> -->
+                <li>
+                    <a href="https://github.com/grle" target="_blank">
+                        <img src="../img/contact/github.svg" width="50px" alt="github icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/graceleeln/" target="_blank">
+                        <img src="../img/contact/linkedin.svg" width="50px" alt="linkedin icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/sun_of_man.jpg/" target="_blank">
+                        <img src="../img/contact/instagram.svg" width="50px" alt="instagram icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="dark-bg center-text white-text">
+        designed & coded by Grace Lee &#169; 2026
+    </footer>
+
+    <!-- javascript -->
+    <script src="../js/script.js" charset="utf-8"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126022629-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126022629-1');
+    </script>
+</body>
+
+</html>

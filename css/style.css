@@ -1,0 +1,229 @@
+/**************ROOTS */
+:root {
+  /* COLORS */
+  --accent: #F4EEED;
+  --green: #667651;
+  --grey: #F2F2F2;
+  --dark: #8E8E8E;
+  --bg: #FCFCFC;
+  --text-color: #333333;
+  /* SPACING */
+  --padding: 15px;
+  --space: 6rem;
+  --mid-space: 4rem;
+  --small-space: 2rem;
+  --nav: 70px;
+}
+
+/**************MAIN */
+* {
+  box-sizing: border-box;
+}
+
+*, html {
+  scroll-behavior: smooth !important;
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--text-color);
+  margin: 0;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: 'East Sea Dokdo', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+h6 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+}
+
+p, ul {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lora', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+button {
+  font-family: 'Lora', sans-serif;
+  font-size: 1rem;
+  background: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+footer {
+  /* display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse; */
+  padding-bottom: 10px;
+}
+
+footer a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+/**************CLASS */
+/* COLOR */
+.grey-bg {
+  background-color: var(--grey);
+}
+
+.dark-bg {
+  background-color: var(--green);
+}
+
+.white-bg {
+  background-color: var(--bg);
+}
+
+.accent-bg {
+  background-color: var(--accent);
+}
+
+.white-text {
+  color: white;
+}
+
+/* DIV BOX */
+.shadow-box {
+  box-shadow: 0px 5px 10px 1px gray;
+}
+
+.center-block {
+  margin: auto;
+}
+
+/* TEXT */
+.center-text {
+  text-align: center;
+}
+
+.shadow-text {
+  text-shadow: 4px 4px 20px black;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+.white-text {
+  color: white;
+}
+
+/* SPACE */
+.padding {
+  padding: var(--padding);
+}
+
+.spacing {
+  padding: var(--space) 0rem;
+}
+
+.spacing-all {
+  padding: var(--space);
+}
+
+.spacing-top {
+  padding-top: var(--space);
+}
+
+.spacing-bottom {
+  padding-bottom: var(--space);
+}
+
+.mid-spacing {
+  padding: var(--mid-space) 0rem;
+}
+
+.small-spacing {
+  padding: var(--small-space) 0rem;
+}
+
+.small-spacing-top {
+  padding-top: var(--small-space);
+}
+
+.small-spacing-bottom {
+  padding-bottom: var(--small-space);
+}
+
+.left-space {
+  padding-left: var(--small-space);
+}
+
+.right-space {
+  padding-right: var(--small-space);
+}
+
+.side-space {
+  padding-left: var(--small-space);
+  padding-right: var(--small-space);
+}
+
+.nav-spacing {
+  margin-top: var(--nav);
+}
+
+/* WIDTH */
+.width {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}

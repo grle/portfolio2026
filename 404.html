@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Grace Lee &#8212; Portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/website.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav id="nav-bar" class="white-bg nav-padding nav-shadow">
+        <div class="logo">
+            <a href="./">
+                <h1 class="logo-name">GRACE LEE</h1>
+            </a>
+        </div>
+        <div class="toggle">
+            <div class="hamburger" id="hamburger-1" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div id="backdrop" onclick="toggleMenu()"></div>
+            <div class="menu">
+                <ul>
+                    <!-- <li><a href="./">Home</a></li> -->
+                    <li><a onclick="closeMenu()" href="index.html#work">Work</a>
+                    </li>
+                    <li><a onclick="closeMenu()" href="index.html#about">About</a>
+                    </li>
+                    <li><a onclick="closeMenu()" href="#contact-me">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 404 -->
+    <div class="nav-spacing">
+        <div class="accent-bg spacing">
+            <div class="width mid-spacing">
+                <!-- picture -->
+                <img class="img-404 img-block center-block" src="img/404.png" alt="Image of a pipe" />
+                <h6 class="center-text spacing">This is not a page</h6>
+                <hr>
+                <div class="center-text">
+                    <div class="btn small-spacing">
+                        <a href="./" class="btn-green" target="_blank">Return Home</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="dark-bg spacing white-text center-text">
+        <div class="spacing" id="contact-me">
+            <h1>CONTACT</h1>
+            <div class="mid-spacing footer">
+                <p>Interested in working with me?</p>
+                <div class="btn">
+                    <a href="mailto:gracelee.ux@gmail.com" target="_blank" class="btn-white">Shoot me a
+                        line</a>.
+                </div>
+            </div>
+
+            <ul class="contact">
+                <li>
+                    <a href="mailto:gracelee.ux@gmail.com" target="_blank">
+                        <img src="img/contact/email.svg" width="50px" alt="email icon">
+                    </a>
+                </li>
+                <!-- <li>
+                        <a href="https://dribbble.com/graceavocado" target="_blank">
+                        <img src="images/contact/dribbble.svg" width="50px" alt="dribbble icon">
+                        </a>
+                    </li> -->
+                <li>
+                    <a href="https://github.com/grle" target="_blank">
+                        <img src="img/contact/github.svg" width="50px" alt="github icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/graceleeln/" target="_blank">
+                        <img src="img/contact/linkedin.svg" width="50px" alt="linkedin icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/sun_of_man.jpg/" target="_blank">
+                        <img src="img/contact/instagram.svg" width="50px" alt="instagram icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+    <footer class="dark-bg center-text white-text">
+        <p>designed & coded by Grace Lee &#169; 2026</p>
+    </footer>
+
+    <!-- javascript -->
+    <script src="js/script.js" charset="utf-8"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126022629-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126022629-1');
+    </script>
+</body>
+
+</html>

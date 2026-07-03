@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Grace Lee &#8212; Portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/website.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav id="nav-bar" class="white-bg nav-padding nav-shadow">
+        <div class="logo">
+            <a href="./">
+                <h1 class="logo-name">GRACE LEE</h1>
+            </a>
+        </div>
+        <div class="toggle">
+            <div class="hamburger" id="hamburger-1" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div id="backdrop" onclick="toggleMenu()"></div>
+            <div class="menu">
+                <ul>
+                    <!-- <li><a href="./">Home</a></li> -->
+                    <li><a onclick="closeMenu()" href="#work">Work</a>
+                    </li>
+                    <li><a onclick="closeMenu()" href="#about">About</a>
+                    </li>
+                    <li><a onclick="closeMenu()" href="#contact-me">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header nav-spacing">
+        <div class="width">
+            <div class="part-width">
+                <h2 class="small-spacing-bottom">Hi, my name’s Grace 
+                    <span class="span-rotate">🥑</span></h2>
+                <h4>I combine design and education to create user-friendly learning experiences that solves real-world
+                    problems</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll">
+
+        <!-- WORK -->
+        <div id="work">
+            <h1 class="pad-heading center-text spacing">WORK</h1>
+
+            <!-- portfolio featured projects -->
+            <!-- DBSA -->
+            <div class="flex">
+                <!-- <img class="flex-img" src="img/projects/dbsa/dbsa-header.png" alt="image of Clearviction on a laptop"> -->
+                <div class="project-img pic-bg header-dbsa" alt="image of the DBSA facilitator training course"></div>
+                <div class="side-space project-text">
+                    <div class="small-spacing">
+                        <h5>DBSA Silicon Valley</h5>
+                        <h3>Support Group Facilitator Training</h3>
+                    </div>
+                    <p>
+                        Designed a scenario-based eLearning module training facilitators how to handle challenging
+                        participants within online mental health support groups
+                    </p>
+                    <p class="small-spacing-top">
+                        <strong>Tools</strong>: Articulate Storyline 360, Figma
+                    </p>
+                    <div class="btn btn-spacing-top">
+                        <a href="p/dbsa.html" class="btn-green">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- seachange -->
+            <div class="flex row-reverse spacing-top">
+                <!-- <img class="flex-img" src="img/projects/seachange/seachange-header.png"
+                    alt="replica of Seachange Resources leadership course"> -->
+                <div class="project-img pic-bg header-seachange" alt="replica of Seachange Resources leadership course">
+                </div>
+                <div class="side-space project-text">
+                    <div class="small-spacing">
+                        <h5>Unity Workplace Learning</h5>
+                        <h3>Leadership at the Helm</h3>
+                    </div>
+                    <p>
+                        Improved video-based online leadership education program, making it
+                        more user friendly and easier to track learning progress
+                    </p>
+                    <p class="small-spacing-top">
+                        <strong>Tools</strong>: Canvas LMS, Adobe Creative Cloud
+                    </p>
+                    <div class="btn btn-spacing-top">
+                        <a href="p/seachange.html" class="btn-green">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- alibaba -->
+            <div class="flex spacing-top">
+                <!-- <img class="flex-img" src="img/projects/alibaba/alibaba-header.png" alt="image of Seachange Resources"> -->
+                <div class="project-img pic-bg header-alibaba" alt="replica of Alibaba.com Features AI Agent"></div>
+                <div class="side-space project-text">
+                    <div class="small-spacing">
+                        <h5>Alibaba.com</h5>
+                        <h3>Alibaba.com Features AI Agent</h3>
+                    </div>
+                    <p>
+                        Created an AI chatbox to educate users about B2B terminology and features offered by
+                        the e-commerce platform
+                    </p>
+                    <p class="small-spacing-top">
+                        <strong>Tools</strong>: IdeaLab AI Studio
+                    </p>
+                    <div class="btn btn-spacing-top">
+                        <a href="p/alibaba.html" class="btn-green">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ABOUT -->
+            <div class="spacing" id="about">
+                <div class="accent-bg">
+                    <div class="flex flex-center flex-about">
+                        <!-- picture -->
+                        <img class="about-web" src="img/graceavocado-web.png"
+                            alt="Image of GRACE LEE paying homage to Magritte's Son of Man but with an avocado over face instead of apple" />
+                        <img class="about-mobile" src="img/graceavocado-mobile.png"
+                            alt="Image of GRACE LEE paying homage to Magritte's Son of Man but with an avocado over face instead of apple" />
+
+                        <!-- quote -->
+                        <div class="about-text">
+                            <h1 class="spacing">ABOUT</h1>
+                            <div class="quote">
+                                <img src="img/quote.svg" alt="Quotation marks">
+                                <div class="right-space">
+                                    <h3>I dare you to Google image
+                                        <div class="btn btn-large">
+                                            <!-- <a href="https://www.gracelee.net/#the.grace.lee.project" class="btn-green"
+                                                target="_blank"> -->
+                                            <a href="https://www.kanopy.com/en/product/grace-lee-project-0?frontend=kui"
+                                                class="btn-green" target="_blank">
+                                                Grace Lee</a>.
+                                        </div>
+                                        </br>Your computer will burst into flames!
+                                    </h3>
+                                    <p class="about-spacing">&#8212; Ali Wong, <span class="italics">Hard Knock Wife
+                                            (2018)</span>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- biography -->
+                <div class="width spacing">
+                    <h3 class="small-spacing-bottom">I’m a<span class="span-grey">n</span>
+                        <span class="span-grey">Educator</span> &#8594;
+                        <span class="span-grey">UX Designer</span> &#8594; Instructional Designer
+                    </h3>
+                    <!-- <h4>
+                        I come from a multidisciplinary background.
+                    </h4> -->
+                    <p>
+                        <!-- <strong>What I do</strong>. -->
+                        I wear many hats, incorporating my experience with visual design, video editing, curriculum
+                        development, content writing, user research, and UX design.
+                    </p>
+                    <p class="text-padding-top">
+                        <!-- After getting my master’s in Learning Science Technology, I got a certificate in UX Design to
+                        become an Instructional Designer. -->
+                        I collaborate with SME’s and stakeholders, building trust and using
+                        empathy to create reliable solutions. I have worked in global cross-functional teams, from
+                        nonprofits to a university, startups to a B2B company. My experience in multiple
+                        fields helps me to approach different issues from different angles and perspectives.
+                    </p>
+                    <p class="text-padding-top">
+                        When I’m off the clock, I like learning new things. I try out different art
+                        forms, such as pottery and glassblowing and fiber arts. I volunteer at my local mental health
+                        organizations and help organize self-care events. I sometimes do coding
+                        challenges or add
+                        <a href="404.html" class="btn-green" target="_blank">playful touches</a>
+                        to my Magritte-themed portfolio.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <div class="dark-bg spacing white-text center-text">
+                <div class="spacing" id="contact-me">
+                    <h1>CONTACT</h1>
+                    <div class="mid-spacing footer">
+                        <p>Interested in working with me?</p>
+                        <div class="btn">
+                            <a href="mailto:gracelee.ux@gmail.com" target="_blank" class="btn-white">Shoot me a
+                                line</a>.
+                        </div>
+                    </div>
+
+                    <ul class="contact">
+                        <li>
+                            <a href="mailto:gracelee.ux@gmail.com" target="_blank">
+                                <img src="img/contact/email.svg" width="50px" alt="email icon">
+                            </a>
+                        </li>
+                        <!-- <li>
+                        <a href="https://dribbble.com/graceavocado" target="_blank">
+                        <img src="images/contact/dribbble.svg" width="50px" alt="dribbble icon">
+                        </a>
+                    </li> -->
+                        <li>
+                            <a href="https://github.com/grle" target="_blank">
+                                <img src="img/contact/github.svg" width="50px" alt="github icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/graceleeln/" target="_blank">
+                                <img src="img/contact/linkedin.svg" width="50px" alt="linkedin icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/sun_of_man.jpg/" target="_blank">
+                                <img src="img/contact/instagram.svg" width="50px" alt="instagram icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="dark-bg center-text white-text">
+            <p>designed & coded by Grace Lee &#169; 2026</p>
+        </footer>
+
+        <!-- javascript -->
+        <script src="js/script.js" charset="utf-8"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126022629-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-126022629-1');
+        </script>
+</body>
+
+</html>
